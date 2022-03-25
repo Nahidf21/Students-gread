@@ -1,0 +1,11 @@
+public class Main {
+  public static void main(String[] args) {
+    Student account1=new Student("Jane Green",93.5);
+    Student account2=new Student("Jane Blue",72.75);
+
+    System.out.printf("%s's letter grade is : %s%n",
+                     account1.getName(),account1.getLetterGrage());
+    System.out.printf("%s's letter grade is : %s%n",
+                     account2.getName(),account2.getLetterGrage());
+  }
+}
